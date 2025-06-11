@@ -1,6 +1,6 @@
 import { RateBar } from './RateBar'
 
-export function showDescription({title, description}) {
+export function ShowDescription({title, description}) {
     return (
         <div>
             <h2>{title}</h2>

@@ -1,4 +1,4 @@
-export function ShowCReatedBy({AuthorName}) {
+export function CreatedBy({AuthorName}) {
 
     return (
         <div>

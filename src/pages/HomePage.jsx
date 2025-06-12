@@ -4,6 +4,8 @@ import { MainSearchBar } from "../components/MainSearchBar";
 import { ShowDescription } from "../components/showDescription";
 import { ShowCarousel } from "../components/ShowCarousel";
 import { PagesBackground } from "../components/PagesBackground";
+import signInIcon from '../assets/img/signIn_icon.png'
+import registerIcon from '../assets/img/register.png'
 
 
 export function HomePage() {
@@ -14,8 +16,8 @@ export function HomePage() {
                 <PagesBackground />
                 <Logo/>
                 <MainSearchBar/>
-                <Btn iconSrc='../assets/img/signIn_icon.png' alt='Bouton connexion' label='Sign in' />
-                <Btn iconSrc='../assets/img/register_icon.png' alt='Bouton enrengistrement' label='register' />
+                <Btn iconSrc={signInIcon} alt='Bouton connexion' label='Sign in' />
+                <Btn iconSrc={registerIcon} alt='Bouton enrengistrement' label='register' />
             </div>
             <div>
                 <ShowDescription/>

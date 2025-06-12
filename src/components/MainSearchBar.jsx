@@ -1,6 +1,6 @@
 import searchBarIcon from '../assets/img/searchBarIcon.png'
 
-export function MainSearchBar() {
+export function MainSearchBar({value, onChange}) {
     return (
         <div>
             <button>

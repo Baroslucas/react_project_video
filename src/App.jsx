@@ -4,12 +4,11 @@ import { Btn } from './components/Btn'
 import { MainSearchBar } from './components/MainSearchBar'
 import { useEffect } from "react";
 import { fetchPopularShow } from "./api/popularShows";
+import { HomePage } from './pages/HomePage';
 
 function App() {
 
-  return (
-    
-    )
+  return <HomePage/>
 }
 
 export default App

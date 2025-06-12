@@ -11,7 +11,7 @@ export async function fetchPopularShow() {
 
     const json = await response.json();
     console.log(json);
-    return json.results[0];
+    return json.results;
   } catch (error) {
     console.error(
       "Erreur lors du fetch des séries les plus populaires: ",

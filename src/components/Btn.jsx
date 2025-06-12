@@ -1,6 +1,6 @@
-export function Btn() {
+export function Btn({iconSrc, alt, label}) {
     return <button>
-        {Icon && (
+        {iconSrc && (
             <img src={iconSrc} alt={alt} className="" /> 
         )}
         <span>{label}</span>

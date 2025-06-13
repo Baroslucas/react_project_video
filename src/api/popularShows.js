@@ -1,4 +1,4 @@
-import.meta.env.VITE_API_KEY_PARAM;
+const API_KEY = import.meta.env.VITE_API_KEY_PARAM;
 
 const BASE_URL = "https://api.themoviedb.org/3";
 

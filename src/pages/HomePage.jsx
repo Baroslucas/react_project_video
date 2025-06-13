@@ -1,7 +1,7 @@
 import { Btn } from "../components/Btn";
 import { Logo } from "../components/Logo";
 import { MainSearchBar } from "../components/MainSearchBar";
-import { ShowDescription } from "../components/showDescription";
+import { ShowDescription } from "../components/ShowDescription";
 import { ShowCarousel } from "../components/ShowCarousel";
 import { PagesBackground } from "../components/PagesBackground";
 import signInIcon from '../assets/img/signIn_icon.png'
